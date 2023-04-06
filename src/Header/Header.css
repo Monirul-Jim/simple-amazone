@@ -1,0 +1,18 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 80px;
+}
+div .header a{
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+}
+div .header a:hover{
+    text-decoration: underline;
+    color: orange;
+    font-size: 17px;
+    transition: 1s;
+}

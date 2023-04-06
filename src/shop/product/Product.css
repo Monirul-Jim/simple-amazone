@@ -1,0 +1,25 @@
+.cart{
+    border: 1px solid black;
+    height: 286px;
+    width:300px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    position: relative;
+}
+div .cart h6{
+    margin-left: 20px;
+}
+.button-cart{
+    background-color: rgb(255, 153, 0,0.51);
+    border: none;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 5px;
+    border-radius: 0px 0px 8px 9px;
+}
+.button-cart:hover{
+    background-color: orange;
+    color: white;
+    transition: 1s;
+}
